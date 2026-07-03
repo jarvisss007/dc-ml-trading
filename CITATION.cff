@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or the paper's results, please cite it as below."
+type: software
+title: "Do Machine-Learning Filters on Directional-Change Events Survive Out-of-Sample? A Cautionary Study Across Equities and Commodities"
+authors:
+  - family-names: Patil
+    given-names: Anupam Prabhugouda
+    email: apati077@ucr.edu
+date-released: 2026-07-02
+url: "https://github.com/jarvisss007/dc-ml-trading"
+keywords:
+  - directional changes
+  - intrinsic time
+  - machine learning
+  - backtest overfitting
+  - walk-forward evaluation
+license: MIT

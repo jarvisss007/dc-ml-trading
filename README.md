@@ -1,5 +1,8 @@
 # Do ML Filters on Directional-Change Events Survive Out-of-Sample?
 
+**📄 [Read the paper (PDF)](paper/paper.pdf)** · MIT licensed · every number
+reproduces from public data with two commands
+
 A fully reproducible stress-test of the "ML filter on directional-change (DC)
 trading signals" idea, on genuine daily equity and commodity data, under
 expanding-window walk-forward evaluation, realistic transaction costs, and a
@@ -57,6 +60,10 @@ strictly out-of-sample; the threshold θ is not chosen ex-post.
 
 No DC-ML p-value clears 0.05: the strategy produces no statistically significant
 positive per-trade return, let alone excess over buy-and-hold.
+
+![Out-of-sample equity curves](figures/fig4_equity.png)
+
+![Maximum drawdown comparison](figures/fig2_drawdown.png)
 
 ## Relationship to the June-2026 working-paper draft
 
