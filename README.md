@@ -1,7 +1,10 @@
 # Do ML Filters on Directional-Change Events Survive Out-of-Sample?
 
+[![CI](https://github.com/jarvisss007/dc-ml-trading/actions/workflows/ci.yml/badge.svg)](https://github.com/jarvisss007/dc-ml-trading/actions/workflows/ci.yml)
+
 **📄 [Read the paper (PDF)](paper/paper.pdf)** · MIT licensed · every number
-reproduces from public data with two commands
+reproduces from public data with two commands — CI asserts the paper's anchor
+numbers on every push
 
 A fully reproducible stress-test of the "ML filter on directional-change (DC)
 trading signals" idea, on genuine daily equity and commodity data, under
